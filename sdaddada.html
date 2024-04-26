@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Document</title>
+    <style>
+
+@media (max-width: 768px) {
+    .home{
+        
+        z-index: 0;
+        align-items: left;
+       
+    }
+    
+    .home-content{
+        z-index: 100%;
+        opacity: .5;
+        background-color: black;
+        border-radius:  16px;
+        margin-left: 2%;
+        height: 30%;
+        width: 97%;
+        border: 2px solid black;
+        z-index: 0;
+        color: white;
+        padding: 50px;
+        position: sticky;
+        margin-top: 5%;
+        text-align: left; 
+    }
+    
+    .home-content h1{
+        font-family:'Gabarito', cursive ;
+        font-size: 40px;  
+    }
+    
+    .home-content p{
+        font-size: 12px;
+        max-width: 80%;  
+    }
+}
+
+/* Example media query for screens with a width of 1200px or less */
+@media (max-width: 1200px) {
+    .home{
+        
+        z-index: 0;
+        align-items: left;
+       
+    }
+    
+    .home-content{
+        z-index: 100%;
+        opacity: .5;
+        background-color: black;
+        border-radius:  16px;
+        margin-left: 2%;
+        height: 30%;
+        width: 97%;
+        border: 2px solid black;
+        z-index: 0;
+        color: white;
+        padding: 50px;
+        position: sticky;
+        margin-top: 5%;
+        text-align: left; 
+    }
+    
+    .home-content h1{
+        font-family:'Gabarito', cursive ;
+        font-size: 40px;  
+    }
+    
+    .home-content p{
+        font-size: 12px;
+        max-width: 80%;  
+    }
+}
+
+        @import url('https://fonts.googleapis.com/css2?family=Autour+One&family=Mooli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Autour+One&family=Gabarito:wght@600&family=Mooli&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Autour One', cursive; 
+}
+
+body {
+
+    min-height: 100vh;
+    background: url(./wv3eb9zeo9r51.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header {
+    box-shadow: 2px 4px 8px rgb(0, 0, 0);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+    padding: 20px 100px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+   
+}
+
+.logo {
+    font-size: 32px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 700;    
+}
+
+.navbar a {
+    position: relative;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    text-decoration: none;
+    margin-left:40px ;
+}
+
+.navbar a::before {
+    box-shadow: 2px 4px 8px rgb(0, 0, 0);
+    content: '' ;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: rgb(0, 0, 0);
+    transition: .3s;
+}
+
+.navbar a:hover::before {
+    width: 100%;
+}
+
+.home{
+    align-items: left;
+    
+}
+
+.home-content{
+    z-index: 100%;
+    opacity: .5;
+    background-color: black;
+    border-radius:  16px;
+    margin-left: 5%;
+    height: 50%;
+    width: 35%;
+    border: 2px solid black;
+    z-index: 0;
+    color: white;
+    padding: 100px;
+    position: sticky;
+    margin-top: 12%;
+    text-align: left; 
+}
+
+.home-content h1{
+    font-family:'Gabarito', cursive ;
+    font-size: 60px;  
+}
+
+.home-content p{
+    
+    font-size: 20px;
+    max-width: 100%;  
+}
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light" data-bs-theme="light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarColor03">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Home
+                  <span class="visually-hidden">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Separated link</a>
+                </div>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-sm-2" type="search" placeholder="Search">
+              <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      
+   <section class="home">
+        <div class="home-content">
+            <h1>Welcome, player</h1><br>
+            <p>Here you will find basic information about the plot and characters of the anime "Sword Art Online"</p>
+         </div>
+   </section>
+   
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
