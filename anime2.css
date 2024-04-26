@@ -1,0 +1,145 @@
+@import url('https://fonts.cdnfonts.com/css/anime-ace');
+@import url('https://fonts.googleapis.com/css2?family=Autour+One&family=Gabarito:wght@600&family=Mooli&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Anime Ace', sans-serif;
+}
+
+body {
+
+    min-height: 100vh;
+    background: url(https://4kwallpapers.com/images/wallpapers/kirito-kirigaya-3840x2160-10432.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header {
+    box-shadow: 2px 4px 8px rgb(0, 0, 0);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+    padding: 20px 100px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+   
+}
+
+.logo {
+    font-size: 32px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 700;    
+}
+
+.navbar a {
+    color: black;
+    position: relative;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left:40px ;
+}
+
+.navbar a::before {
+    color: #26B3F3;
+    box-shadow: 2px 4px 8px rgb(0, 0, 0);
+    content: '' ;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #90D7EC;
+    transition: .3s;
+}
+
+.navbar:hover {
+    color: #26B3F3;
+}
+.navbar a:hover::before {
+    width: 100%;
+}
+
+.home{
+    align-items: left;
+    
+}
+
+.home-content{
+    z-index: 100%;
+    opacity: .5;
+    background-color: black;
+    border-radius:  16px;
+    margin-left: 2%;
+    height: 50%;
+    width: 35%;
+    border: 2px solid black;
+    z-index: 0;
+    color: white;
+    padding: 100px;
+    position: sticky;
+    margin-top: 12%;
+    text-align: left; 
+}
+
+.home-content h1{
+    font-family:'Gabarito', cursive ;
+    font-size: 60px;  
+}
+
+.home-content p{
+    
+    font-size: 20px;
+    max-width: 100%;  
+}
+
+
+.home-content1{
+    z-index: 100%;
+    opacity: .5;
+    background-color: black;
+    border-radius:  16px;
+    margin-left: 65%;
+    height: 40%;
+    width: 33%;
+    border: 2px solid black;
+    z-index: 0;
+    color: white;
+    padding: 40px;
+    position: sticky;
+    top: 0;
+    text-align: center; 
+}
+
+.home-content1 h1{
+    font-family:'Gabarito', cursive ;
+    font-size: 30px;  
+}
+
+.home-content1 p{
+    
+    font-size: 20px;
+    
+}
+
+.video{
+    border-radius: 8px;
+    border: 2px solid #26B3F3;
+}
+
+
+
+
+
+
+
+
+

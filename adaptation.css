@@ -1,0 +1,310 @@
+/* Example media query for screens with a width of 768px or less */
+@media (max-width: 768px) {
+
+    body {
+
+        min-height: 100vh;
+        background: url(https://4kwallpapers.com/images/wallpapers/kirito-kirigaya-3840x2160-10432.png) no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .home{
+        
+        z-index: 0;
+        align-items: left;
+       
+    }
+    
+    .home-content{
+        z-index: 100%;
+        opacity: .5;
+        background-color: black;
+        border-radius:  16px;
+        margin-left: 1%;
+        height: 30%;
+        width: 98%;
+        border: 2px solid black;
+        z-index: 0;
+        color: white;
+        padding: 50px;
+        position: sticky;
+        margin-top: 5%;
+        text-align: left; 
+    }
+    
+    .home-content h1{
+        font-family:'Gabarito', cursive ;
+        font-size: 40px;  
+    }
+    
+    .home-content p{
+        font-size: 12px;
+        max-width: 80%;  
+    }
+
+    .home1{
+        
+        align-items: left;
+       
+    }
+    
+    .home-content1{
+        z-index: 100%;
+    opacity: .5;
+    background-color: black;
+    border-radius:  16px;
+    margin-left: 1%;
+    height: 50%;
+    width: 98%;
+    border: 2px solid black;
+    z-index: 0;
+    color: white;
+    padding: 40px;
+    position: sticky;
+    margin-top: 2%;
+    text-align: center; 
+    }
+    
+    .home-content1 h1{
+        font-family:'Gabarito', cursive ;
+        font-size: 40px;  
+    }
+    
+    .video{
+        width: 100%;
+    }
+}
+
+/* Example media query for screens with a width of 1200px or less */
+@media (max-width: 1200px) {
+
+    body {
+
+        min-height: 100vh;
+        background: url(https://4kwallpapers.com/images/wallpapers/kirito-kirigaya-3840x2160-10432.png) no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .home{
+        
+        z-index: 0;
+        align-items: left;
+       
+    }
+    
+    .home-content{
+        z-index: 100%;
+        opacity: .5;
+        background-color: black;
+        border-radius:  16px;
+        margin-left: 1%;
+        height: 30%;
+        width: 98%;
+        border: 2px solid black;
+        z-index: 0;
+        color: white;
+        padding: 50px;
+        position: sticky;
+        margin-top: 5%;
+        text-align: left; 
+    }
+    
+    .home-content h1{
+        font-family:'Gabarito', cursive ;
+        font-size: 40px;  
+    }
+    
+    .home-content p{
+        font-size: 12px;
+        max-width: 80%;  
+    }
+
+    .home1{
+        
+        align-items: left;
+       
+    }
+    
+    .home-content1{
+        z-index: 100%;
+    opacity: .5;
+    background-color: black;
+    border-radius:  16px;
+    margin-left: 1%;
+    height: 50%;
+    width: 98%;
+    border: 2px solid black;
+    z-index: 0;
+    color: white;
+    padding: 40px;
+    position: sticky;
+    margin-top: 2%;
+    text-align: center; 
+    }
+    
+    .home-content1 h1{
+        font-family:'Gabarito', cursive ;
+        font-size: 40px;  
+    }
+    
+    .video{
+        width: 100%;
+    }
+}
+    
+    @media (min-width: 1200px) {
+
+        body {
+
+            min-height: 100vh;
+            background: url(https://4kwallpapers.com/images/wallpapers/kirito-kirigaya-3840x2160-10432.png) no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        .home{
+            align-items: left;
+            
+        }
+        
+        .home-content{
+            z-index: 100%;
+            opacity: .5;
+            background-color: black;
+            border-radius:  16px;
+            margin-left: 2%;
+            height: 50%;
+            width: 35%;
+            border: 2px solid black;
+            z-index: 0;
+            color: white;
+            padding: 100px;
+            position: sticky;
+            margin-top: 12%;
+            text-align: left; 
+        }
+        
+        .home-content h1{
+            font-family:'Gabarito', cursive ;
+            font-size: 40px;  
+        }
+        
+        .home-content p{
+            
+            font-size: 15px;
+            max-width: 100%;  
+        }
+        
+        .home-content1{
+            z-index: 100%;
+            opacity: .5;
+            background-color: black;
+            border-radius:  16px;
+            margin-left: 65%;
+            height: 40%;
+            width: 33%;
+            border: 2px solid black;
+            z-index: 0;
+            color: white;
+            padding: 40px;
+            position: sticky;
+            margin-top: -24%;
+            text-align: center; 
+        }
+        
+        .home-content1 h1{
+            font-family:'Gabarito', cursive ;
+            font-size: 30px;  
+        }
+        
+        .home-content1 p{
+            
+            font-size: 20px;
+            
+        }
+        
+        .video{
+            border-radius: 8px;
+            border: 2px solid #26B3F3;
+        }
+    }
+
+@media (min-width: 1800px) {
+
+    body {
+
+        min-height: 100vh;
+        background: url(https://4kwallpapers.com/images/wallpapers/kirito-kirigaya-3840x2160-10432.png) no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .home{
+        align-items: left;
+        
+    }
+    
+    .home-content{
+        z-index: 100%;
+        opacity: .5;
+        background-color: black;
+        border-radius:  16px;
+        margin-left: 2%;
+        height: 50%;
+        width: 35%;
+        border: 2px solid black;
+        z-index: 0;
+        color: white;
+        padding: 100px;
+        position: sticky;
+        margin-top: 12%;
+        text-align: left; 
+    }
+    
+    .home-content h1{
+        font-family:'Gabarito', cursive ;
+        font-size: 60px;  
+    }
+    
+    .home-content p{
+        
+        font-size: 20px;
+        max-width: 100%;  
+    }
+    
+    .home-content1{
+        z-index: 100%;
+        opacity: .5;
+        background-color: black;
+        border-radius:  16px;
+        margin-left: 65%;
+        height: 40%;
+        width: 33%;
+        border: 2px solid black;
+        z-index: 0;
+        color: white;
+        padding: 40px;
+        position: sticky;
+        margin-top: -23%;
+        text-align: center; 
+    }
+    
+    .home-content1 h1{
+        font-family: 'Anime Ace', sans-serif;
+        font-size: 30px;  
+    }
+    
+    .home-content1 p{
+        
+        font-size: 20px;
+        
+    }
+    
+    .video{
+        border-radius: 8px;
+        border: 2px solid #90D7EC;
+    }
+}
+
+
+
+

@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Autour+One&family=Mooli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Autour+One&family=Gabarito:wght@600&family=Mooli&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Autour One', cursive; 
+}
+
+body {
+    min-height: 100vh;
+    background: url(./961182.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header {
+    box-shadow: 2px 4px 8px rgb(0, 0, 0);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+    padding: 20px 100px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 32px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 700;    
+}
+
+.navbar a {
+    position: relative;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    text-decoration: none;
+    margin-left:40px ;
+}
+
+.navbar a::before {
+    box-shadow: 2px 4px 8px rgb(0, 0, 0);
+    content: '' ;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: rgb(0, 0, 0);
+    transition: .3s;
+}
+
+.navbar a:hover::before {
+    width: 100%;
+}
+
+video{
+    border-radius: 16px;
+    box-shadow: 3px 9px 27px black;
+    height: 600px;
+    width: auto;
+}
+
+h2{
+    color: #030303;
+    background-color: #ffffff;
+    padding: 20px;
+    height:900px;
+    width: 80%;
+    box-shadow: 3px 9px 27px black;            
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 100%;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 16px;
+}
+
+span{     
+    color: #FF3F4C;
+}
+
+.home{
+    align-items: left;  
+}
+
+.home-content{
+    color: white;
+    padding: 100px;
+    position: absolute;
+    top: 30%;
+    text-align: left; 
+}
+
+.home-content h1{
+    font-family:'Gabarito', cursive ;
+    font-size: 90px;  
+}
+
+.home-content p{
+    font-size: 20px;
+    max-width: 60%;  
+}
+
+h3 {
+  text-align: center;
+  color: #000000;
+  background-color: rgb(255, 255, 255);
+  width: 80%;
+  box-shadow:  3px 9px 27px black;
+  height: 350px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 200%;
+  padding: 15px;
+  font-size: 35px;
+  border-radius: 16px;
+}
+
+.button1{
+    color: #ffffff;
+    font-size: 30px;
+    background-color: #c42828;
+    box-shadow: #c42828;
+}
+
+
+
