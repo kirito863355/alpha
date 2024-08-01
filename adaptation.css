@@ -1,0 +1,351 @@
+/* Example media query for screens with a width of 768px or less */
+@media (max-width: 668px) {
+
+}
+
+@media (max-width: 690px) {
+ 
+}
+
+@media (max-width: 750px) {
+  
+  .home {
+    z-index: 2;
+    position: relative;
+    align-items: left;
+  }
+
+  .home-content {
+    z-index: 100%;
+    opacity: 0.5;
+    background-color: black;
+    border-radius: 16px;
+    margin-left: 1%;
+    height: 30%;
+    width: 98%;
+    border: 2px solid black;
+    z-index: 0;
+    color: white;
+    padding: 50px;
+    position: sticky;
+    margin-top: 5%;
+    text-align: left;
+  }
+
+  .home-content h1 {
+    font-family: "Gabarito", cursive;
+    font-size: 30px;
+  }
+
+  .home-content p {
+    font-size: 10px;
+    max-width: 80%;
+  }
+
+  .home1 {
+    z-index: 2;
+    position: relative;
+    align-items: left;
+  }
+
+  .home-content1 {
+    z-index: 2;
+    opacity: 0.5;
+    background-color: black;
+    border-radius: 16px;
+    margin-left: 1%;
+    height: 50%;
+    width: 98%;
+    border: 2px solid black;
+    z-index: 0;
+    color: white;
+    padding: 40px;
+    position: absolute;
+    margin-top: 2%;
+    text-align: center;
+  }
+
+  .home-content1 h1 {
+    font-family: "Gabarito", cursive;
+    font-size: 30px;
+  }
+
+  .video {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  
+
+  .home {
+    z-index: 2;
+    position: relative;
+    align-items: left;
+  }
+
+  .home-content {
+    z-index: 100%;
+    opacity: 0.5;
+    background-color: black;
+    border-radius: 16px;
+    margin-left: 1%;
+    height: 30%;
+    width: 98%;
+    border: 2px solid black;
+    z-index: 0;
+    color: white;
+    padding: 50px;
+    position: sticky;
+    margin-top: 5%;
+    text-align: left;
+  }
+
+  .home-content h1 {
+    font-family: "Gabarito", cursive;
+    font-size: 40px;
+  }
+
+  .home-content p {
+    font-size: 12px;
+    max-width: 80%;
+  }
+
+  .home1 {
+    z-index: 2;
+    position: relative;
+    align-items: left;
+  }
+
+  .home-content1 {
+    z-index: 2;
+    opacity: 0.5;
+    background-color: black;
+    border-radius: 16px;
+    margin-left: 1%;
+    height: 50%;
+    width: 98%;
+    border: 2px solid black;
+    z-index: 0;
+    color: white;
+    padding: 40px;
+    position: absolute;
+    margin-top: 2%;
+    text-align: center;
+  }
+
+  .home-content1 h1 {
+    font-family: "Gabarito", cursive;
+    font-size: 40px;
+  }
+
+  .video {
+    width: 100%;
+  }
+}
+
+@media (max-width: 896px) {
+  
+}
+
+@media (min-width: 900px) {
+
+}
+
+/* Example media query for screens with a width of 1200px or less */
+@media (max-width: 1200px) {
+  
+  .home {
+    z-index: 2;
+    position: relative;
+    align-items: left;
+  }
+
+  .home-content {
+    z-index: 2;
+    opacity: 0.5;
+    background-color: black;
+    border-radius: 16px;
+    margin-left: 1%;
+    height: 30%;
+    width: 98%;
+    border: 2px solid black;
+    color: white;
+    padding: 50px;
+    position: relative;
+    margin-top: 5%;
+    text-align: left;
+  }
+
+  .home-content h1 {
+    font-family: "Gabarito", cursive;
+    font-size: 40px;
+  }
+
+  .home-content p {
+    font-size: 12px;
+    max-width: 80%;
+  }
+
+  .home1 {
+    z-index: 2;
+    position: relative;
+    align-items: left;
+  }
+
+  .home-content1 {
+    z-index: 2;
+    opacity: 0.5;
+    background-color: black;
+    border-radius: 16px;
+    margin-left: 1%;
+    height: 50%;
+    width: 98%;
+    border: 2px solid black;
+    color: white;
+    padding: 40px;
+    position: relative;
+    margin-top: 2%;
+    text-align: center;
+  }
+
+  .home-content1 h1 {
+    font-family: "Gabarito", cursive;
+    font-size: 40px;
+  }
+
+  .video {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  
+  .home {
+    z-index: 2;
+    position: relative;
+    align-items: left;
+  }
+
+  .home-content {
+    z-index: 2;
+    opacity: 0.5;
+    background-color: black;
+    border-radius: 16px;
+    margin-left: 2%;
+    height: 50%;
+    width: 35%;
+    border: 2px solid black;
+    color: white;
+    padding: 100px;
+    position: relative;
+    margin-top: 12%;
+    text-align: left;
+  }
+
+  .home-content h1 {
+    font-family: "Gabarito", cursive;
+    font-size: 40px;
+  }
+
+  .home-content p {
+    font-size: 15px;
+    max-width: 100%;
+  }
+
+  .home-content1 {
+    z-index: 2;
+    opacity: 0.5;
+    background-color: black;
+    border-radius: 16px;
+    margin-left: 65%;
+    height: 40%;
+    width: 33%;
+    border: 2px solid black;
+    color: white;
+    padding: 40px;
+    position: relative;
+    margin-top: -24%;
+    text-align: center;
+  }
+
+  .home-content1 h1 {
+    font-family: "Gabarito", cursive;
+    font-size: 30px;
+  }
+
+  .home-content1 p {
+    font-size: 20px;
+  }
+
+  .video {
+    border-radius: 8px;
+    border: 2px solid #26b3f3;
+  }
+}
+
+@media (min-width: 1800px) {
+  
+
+  .home {
+    z-index: 2;
+    position: relative;
+    align-items: left;
+  }
+
+  .home-content {
+    z-index: 100%;
+    opacity: 0.5;
+    background-color: black;
+    border-radius: 16px;
+    margin-left: 2%;
+    height: 50%;
+    width: 35%;
+    border: 2px solid black;
+    color: white;
+    padding: 100px;
+    position: relative;
+    margin-top: 12%;
+    text-align: left;
+  }
+
+  .home-content h1 {
+    font-family: "Gabarito", cursive;
+    font-size: 60px;
+  }
+
+  .home-content p {
+    font-size: 20px;
+    max-width: 100%;
+  }
+
+  .home-content1 {
+    z-index: 2;
+    opacity: 0.5;
+    background-color: black;
+    border-radius: 16px;
+    margin-left: 65%;
+    height: 40%;
+    width: 33%;
+    border: 2px solid black;
+    color: white;
+    padding: 40px;
+    position: relative;
+    margin-top: -23%;
+    text-align: center;
+  }
+
+  .home-content1 h1 {
+    font-family: "Anime Ace", sans-serif;
+    font-size: 30px;
+  }
+
+  .home-content1 p {
+    font-size: 20px;
+  }
+
+  .video {
+    border-radius: 8px;
+    border: 2px solid #90d7ec;
+  }
+}

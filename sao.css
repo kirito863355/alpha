@@ -1,0 +1,72 @@
+@font-face {
+  font-family:'SAO';
+  src: url(./fonts/SAOUI-Regular.otf);
+}
+
+
+.discrpt {
+    margin: 50px;
+    padding: 5%;
+    top: 10%;
+    position: relative;
+    z-index: 1;
+  }
+
+  .about {
+    font-size: 80px;
+    font-family:'SAO';
+    position: relative;
+    z-index: 1;
+    text-align: center;
+  }
+
+  .info {
+    background:transparent;
+    position: relative;
+    z-index: 1;
+    border-radius: 40px;
+    padding: 30px;
+    gap: 3%;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .plot {
+    font-size: 39px;
+  }
+
+  .info img {
+    border-radius: 16px;
+    height: 40rem;
+  }
+
+  .info1 {
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+  }
+
+  .bg-info {
+    position: absolute;
+    z-index: 0;
+    height: 80rem;
+  }
+
+  .blue {
+    color: rgb(83, 158, 223);
+  }
+
+  .orange {
+    color: rgb(209, 125, 56);
+  }
+
+  .characters{
+    margin-top: 5%;
+  }
+
+  .main-ch{
+    font-size: 60px;
+    text-align: center;
+    font-family: 'SAO';
+  }
